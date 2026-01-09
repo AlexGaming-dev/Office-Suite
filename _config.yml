@@ -1,0 +1,14 @@
+# Officore Project Configuration
+title: Officore Pro Suite 2026
+description: High-performance proprietary productivity suite.
+
+show_downloads: false
+google_analytics: 
+show_edit_on_github: false
+edit_uri: ""
+
+github:
+  is_project_page: false
+  public: false
+
+footer: "Copyright © 2026 Officore. Proprietary License. All rights reserved."
