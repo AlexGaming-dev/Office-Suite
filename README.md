@@ -6,35 +6,34 @@ Officore is a high-performance, web-based productivity suite designed for modern
 
 The core architecture is organized within the `source` directory. You can access the most important files here:
 
-* **[source/Components/](./source/Components):** Reusable UI elements, including the Activation Modals, Editor toolbars, and Document Cards.
-* **[source/Pages/](./source/Pages):** The main application views, such as the Dashboard (Home), Settings, and the full-screen Editor interfaces.
-* **[source/Entities/](./source/Entities):** Database schemas and JSON blueprints that define the structure of Documents, Spreadsheets, and User data.
+* **[source/Components/](./source/Components):** Reusable React components (JSX), including the activation system and UI elements.
+* **[source/Pages/](./source/Pages):** Main application views (JSX) like the Dashboard and specialized Editors.
+* **[source/Entities/](./source/Entities):** Database schemas and blueprints (JSON) defining the structure of documents and records.
 
 ## ✨ Key Features
 
-* **📝 Document Editor:** A clean, distraction-free text processing environment.
-* **📊 Spreadsheets:** Advanced data calculation and organization tools.
+* **📝 Document Editor:** A clean, distraction-free React-based text processing environment.
+* **📊 Spreadsheets:** Advanced JSON-driven calculation and organization tools.
 * **🔐 Secure Activation:** Built-in proprietary license verification system.
-* **⚡ Lightweight Core:** Optimized for rapid deployment and low resource usage.
+* **⚡ Lightweight Core:** Pure JSX/JSON architecture for rapid web deployment.
 
 ## 🛠 Technical Stack
 
-* **Core Engine:** React.js / JavaScript (Web) & Blazor/MAUI (Desktop)
-* **Styling:** Tailwind CSS / Modern CSS3 (Dark-mode optimized)
-* **Data Management:** JSON-Schema based entities via base44 API
+* **Frontend:** React.js (`.jsx`)
+* **Data Layer:** JSON Schema (`.json`) via base44 API
+* **Styling:** Tailwind CSS / Modern CSS3
 * **Security:** SHA-256 based cryptographic license validation
 
-## 🚀 Installation
+## 🚀 Installation & Development
 
 1.  Clone the repository (Access required).
-2.  Navigate to the source directory.
-3.  Run the build command:
+2.  Install dependencies:
     ```bash
-    dotnet build -f net8.0-windows10.0.19041.0
+    npm install
     ```
-4.  Launch the application:
+3.  Start the development server:
     ```bash
-    dotnet run -f net8.0-windows10.0.19041.0
+    npm run dev
     ```
 
 ---
@@ -43,8 +42,8 @@ The core architecture is organized within the `source` directory. You can access
 
 **Proprietary – All Rights Reserved**
 
-Copyright © 2026 Officore.
+Copyright © 2026 Officore. 
 
-This software and its source code are the exclusive property of Officore. Unauthorized copying, modification, or distribution of this project, via any medium, is strictly prohibited. 
+This software and its source code are the exclusive property of Officore. Unauthorized copying, modification, or possession of this project is strictly prohibited.
 
 Refer to the [LICENSE](LICENSE) file for the full legal terms.
