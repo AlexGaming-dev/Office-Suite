@@ -19,14 +19,22 @@ Proprietary and confidential.
    Unauthorized possession of the source code grants no rights to 
    edit or alter the original work.
 
-3. The algorithms and license key generation logic contained within 
+3. CONTRIBUTIONS AND PULL REQUESTS:
+   Users are permitted to submit Pull Requests via the official 
+   repository for the purpose of proposing improvements or bug fixes. 
+   However, this does NOT grant the right to clone the repository 
+   for personal use, copy the code for external projects, or use 
+   the software for any purpose other than contributing to the 
+   official Officore project.
+
+4. The algorithms and license key generation logic contained within 
    this Software are trade secrets and confidential information 
    protected by law.
 
-4. Possession of the source code does not constitute ownership. 
+5. Possession of the source code does not constitute ownership. 
    All intellectual property remains with Officore. Any attempt 
-   to claim ownership or redistribute modified versions is a 
-   violation of this agreement.
+   to claim ownership or redistribute modified versions for personal 
+   gain is a violation of this agreement.
 
 Official Portal: https://alexgaming.is-a.dev/projects/redirection/officesuite/redirect.html
 
