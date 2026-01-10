@@ -24,18 +24,6 @@ The core architecture is organized within the `source` directory. You can access
 * **Styling:** Tailwind CSS / Modern CSS3
 * **Security:** SHA-256 based cryptographic license validation
 
-## 🚀 Installation & Development
-
-1.  Clone the repository (Access required).
-2.  Install dependencies:
-    ```bash
-    npm install
-    ```
-3.  Start the development server:
-    ```bash
-    npm run dev
-    ```
-
 ---
 
 ## ⚖️ License
